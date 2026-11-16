@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "official",
-  "updated_at": "2026-11-16T01:52:00Z",
+  "updated_at": "2026-11-16T23:16:05Z",
   "apps": [
     {
       "id": "org-byos-nouveau-driver",
@@ -23,6 +23,28 @@
         "system.exec"
       ],
       "icon": "icons/org-byos-nouveau-driver.svg"
+    },
+    {
+      "id": "bystudio",
+      "title": "ByStudio",
+      "version": "2.0.0",
+      "icon": "icons/bystudio.svg",
+      "min_byos_version": "2026.11",
+      "max_byos_version": null,
+      "author": "byOS",
+      "publisher_github": "Diegopam",
+      "category": "Desenvolvimento",
+      "summary": "IDE & Compilador .byt nativo para desenvolver, assinar e testar aplicativos no byOS.",
+      "format": "BYOSPKG2",
+      "sha256": "da451ff9a556e6dad46bd62620e9aa8dc3c067d7c966195ce0e51b1af1f6a6dd",
+      "size_bytes": 11067,
+      "path": "packages/bystudio.byt",
+      "permissions": [
+        "fs.read",
+        "fs.write",
+        "package.build",
+        "ui.notify"
+      ]
     }
   ]
 }
