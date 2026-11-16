@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "channel": "official",
+  "updated_at": "2026-11-16T01:51:00Z",
+  "apps": [
+    {
+      "id": "org-byos-nouveau-driver",
+      "title": "Driver Nouveau (NVIDIA)",
+      "version": "1.0.0",
+      "min_byos_version": "2026.11",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "category": "Sistema & Drivers",
+      "summary": "Instala e ativa os drivers open-source Nouveau (Mesa, Vulkan NVK e XWayland) para GPUs NVIDIA no byOS.",
+      "format": "BYOSPKG2",
+      "sha256": "28ee35f46e15107aa6aa1c4f4911ec8ed21c52be2ab0f1d5e21ee711027dab8a",
+      "size_bytes": 2033,
+      "path": "packages/org-byos-nouveau-driver.byt",
+      "permissions": ["sys.gpu", "ui.toast", "ui.notify", "system.exec"]
+    }
+  ]
+}
