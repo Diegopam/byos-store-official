@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A2648"/>
+      <stop offset="55%" stop-color="#1E3A70"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="cubeSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bgGrad)" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="2.5"/>
+  <polygon points="64,24 96,42 64,60 32,42" fill="url(#cubeTop)"/>
+  <polygon points="32,42 64,60 64,96 32,78" fill="#1D4ED8"/>
+  <polygon points="96,42 64,60 64,96 96,78" fill="url(#cubeSide)"/>
+  <path d="M47 68 L39 74 L47 80" fill="none" stroke="#E0F2FE" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M81 68 L89 74 L81 80" fill="none" stroke="#E0F2FE" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="96" cy="94" r="16" fill="#10B981" stroke="#0F172A" stroke-width="3"/>
+  <path d="M89 94 L94 99 L104 89" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
