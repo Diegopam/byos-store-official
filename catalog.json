@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "official",
-  "updated_at": "2026-11-16T01:51:00Z",
+  "updated_at": "2026-11-16T01:52:00Z",
   "apps": [
     {
       "id": "org-byos-nouveau-driver",
@@ -16,7 +16,13 @@
       "sha256": "28ee35f46e15107aa6aa1c4f4911ec8ed21c52be2ab0f1d5e21ee711027dab8a",
       "size_bytes": 2033,
       "path": "packages/org-byos-nouveau-driver.byt",
-      "permissions": ["sys.gpu", "ui.toast", "ui.notify", "system.exec"]
+      "permissions": [
+        "sys.gpu",
+        "ui.toast",
+        "ui.notify",
+        "system.exec"
+      ],
+      "icon": "icons/org-byos-nouveau-driver.svg"
     }
   ]
 }
